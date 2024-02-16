@@ -47,13 +47,13 @@ void loop() {
       strip.clear(); 
       break; 
     case 1: // Red 
-      setAllPixels(strip.Color(150, 0, 0)); 
+      setAllPixels(strip.Color(200, 0, 0)); 
       break; 
     case 2: // Green 
-      setAllPixels(strip.Color(0, 150, 0)); 
+      setAllPixels(strip.Color(0, 200, 0)); 
       break; 
     case 3: // Blue 
-      setAllPixels(strip.Color(0, 0, 150)); 
+      setAllPixels(strip.Color(0, 0, 200)); 
       break; 
     case 4: // Rainbow 
       rainbowCycle(10);
